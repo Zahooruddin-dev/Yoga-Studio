@@ -1,0 +1,29 @@
+.benefits {
+    display: flex;
+    gap: 20px;
+}
+
+.benefits-img {
+    width: auto;
+    max-width: 600px;
+    height: 600px;
+    object-fit: cover; 
+    display: block;
+    border-radius: 20px;
+}
+
+.benefits-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+}
+
+.benefits-stats {
+    display: flex;
+    flex-direction: row;
+    margin: 12px 0;
+}
+
